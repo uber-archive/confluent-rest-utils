@@ -60,9 +60,9 @@ public class HelloWorldResource {
   public HelloResponse hello(@QueryParam("name") String name) {
     // Use a configuration setting to control the message that's written. The name is extracted from
     // the query parameter "name", or defaults to "World". You can test this API with curl:
-    // curl http://localhost:8080/hello
+    // curl http://localhost:8082/hello
     //   -> {"message":"Hello, World!"}
-    // curl http://localhost:8080/hello?name=Bob
+    // curl http://localhost:8082/hello?name=Bob
     //   -> {"message":"Hello, Bob!"}
     return new HelloResponse(
         String.format(config.getString(HelloWorldRestConfig.GREETING_CONFIG),

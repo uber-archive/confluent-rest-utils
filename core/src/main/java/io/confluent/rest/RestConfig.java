@@ -34,7 +34,7 @@ public class RestConfig extends AbstractConfig {
 
   public static final String PORT_CONFIG = "port";
   protected static final String PORT_CONFIG_DOC = "Port to listen on for new connections.";
-  protected static final int PORT_CONFIG_DEFAULT = 8080;
+  protected static final int PORT_CONFIG_DEFAULT = 8082;
 
   public static final String RESPONSE_MEDIATYPE_PREFERRED_CONFIG = "response.mediatype.preferred";
   protected static final String RESPONSE_MEDIATYPE_PREFERRED_CONFIG_DOC =
